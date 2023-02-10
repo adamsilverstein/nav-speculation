@@ -52,7 +52,7 @@ Access-Control-Allow-Origin: *
 
 With this enhancement, the browser can automatically prefetch (or prerender) links in your page which the user is likely to click. The developer simply needs to communicate which links are appropriate to preload, since some pages might exhibit side effects.
 
-For prefetch, you need to be aware of side effect son the server in response to `GET` requests. For prerender, you should also consider side effects when the page loads and executes script. You can [learn more](https://docs.google.com/document/d/1_9XkDUKMGf2f3tDt1gvQQjfliNLpGyFf36BB1-NUZ98/preview) about making your content safe to preload.
+For prefetch, you need to be aware of side effects on the server in response to `GET` requests. For prerender, you should also consider side effects when the page loads and executes script. You can [learn more](https://docs.google.com/document/d/1_9XkDUKMGf2f3tDt1gvQQjfliNLpGyFf36BB1-NUZ98/preview) about making your content safe to preload.
 
 You can do this by using [URL patterns](https://developer.mozilla.org/en-US/docs/Web/API/URL_Pattern_API) and simple boolean expressions using "and", "or", and "not". Support for selecting links using CSS selectors is planned. (Let us know if this would make a difference to you!)
 
